@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>Projects — Tharun Raj R G | AI-Native Developer &amp; CSE Undergraduate</title>
+  <meta name="description" content="Explore Tharun Raj R G's portfolio — AI Support Copilot, Deepfake Detection System, and Apple Inc. DCF Financial Model built with Python, React, Node.js, and PyTorch.">
+  <meta name="keywords" content="projects, portfolio, AI copilot, deepfake detection, DCF model, React, Node.js, PyTorch, LLM APIs">
+  <meta name="author" content="Tharun Raj R G">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Projects — Tharun Raj R G">
+  <meta property="og:description" content="AI-powered applications, deep learning systems, and interactive financial models.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tharunraj.dev/projects">
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://tharunraj.dev/projects">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%237C3AED'/%3E%3Ctext x='16' y='22' font-family='sans-serif' font-size='18' font-weight='bold' fill='white' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Skip to Main Content -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ============ SITE HEADER ============ -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="Tharun Raj R G — Home">
+        <span class="logo-icon" aria-hidden="true">T</span>
+        <span>Tharun Raj</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+        type="button"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </button>
+
+      <nav class="main-nav" id="main-navigation" aria-label="Primary navigation">
+        <ul class="nav-list" role="list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="projects.html" class="nav-link" aria-current="page">Projects</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+    </div>
+  </header>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <main id="main-content">
+
+    <!-- Page Banner -->
+    <section class="page-banner" aria-labelledby="projects-heading">
+      <div class="container">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumbs-separator" aria-hidden="true">/</span>
+          <span class="breadcrumbs-current" aria-current="page">Projects</span>
+        </nav>
+        <h1 id="projects-heading" class="page-banner-title">My Projects</h1>
+        <p class="page-banner-description">
+          Real-world applications built with modern AI, full-stack, and finance technology.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="section-padding" aria-labelledby="projects-grid-heading">
+      <div class="container">
+        <h2 id="projects-grid-heading" class="sr-only">All Projects</h2>
+
+        <!-- Filter Bar -->
+        <div class="filter-bar" role="toolbar" aria-label="Filter projects by category">
+          <button class="filter-btn" type="button" aria-pressed="true" data-filter="all" id="filter-all">All</button>
+          <button class="filter-btn" type="button" aria-pressed="false" data-filter="ai" id="filter-ai">AI / ML</button>
+          <button class="filter-btn" type="button" aria-pressed="false" data-filter="fullstack" id="filter-fullstack">Full-Stack</button>
+          <button class="filter-btn" type="button" aria-pressed="false" data-filter="fintech" id="filter-fintech">Finance Tech</button>
+        </div>
+
+        <!-- Live Region for filter announcements -->
+        <div aria-live="polite" aria-atomic="true" class="sr-only" id="filter-status"></div>
+
+        <!-- Projects -->
+        <div class="grid-2 stagger" id="projects-list" role="list" aria-label="Project list">
+
+          <!-- Project 1: AI Support Copilot -->
+          <article class="card reveal project-card" role="listitem" data-category="ai">
+            <div class="card-image" role="img" aria-label="AI Support Copilot — automated customer support interface powered by LLM APIs" style="background: linear-gradient(135deg, hsl(252, 60%, 25%), hsl(190, 60%, 25%));"></div>
+            <span class="card-tag">AI / Full-Stack</span>
+            <h3 class="card-title">AI Support Copilot</h3>
+            <p class="card-description">
+              Built an AI-powered copilot that automates customer support workflows using large language model APIs.
+              Features context-aware conversations, session management, and scalable concurrent request handling.
+              Designed clean API architecture enabling intelligent, real-time query resolution.
+            </p>
+            <div class="tech-stack" role="list" aria-label="Technologies used in AI Support Copilot">
+              <span class="tech-tag" role="listitem">TypeScript</span>
+              <span class="tech-tag" role="listitem">Node.js</span>
+              <span class="tech-tag" role="listitem">LLM APIs</span>
+            </div>
+            <a href="https://github.com/THARUN10-Coder/ai-support-copilot" class="card-link" aria-label="View AI Support Copilot on GitHub" target="_blank" rel="noopener noreferrer">
+              View on GitHub
+              <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+          </article>
+
+          <!-- Project 2: Deepfake AI Detection System -->
+          <article class="card reveal project-card" role="listitem" data-category="ai">
+            <div class="card-image" role="img" aria-label="Deepfake AI Detection System — real-time media analysis with ResNet18 deep learning" style="background: linear-gradient(135deg, hsl(340, 60%, 25%), hsl(280, 60%, 25%));"></div>
+            <span class="card-tag">Deep Learning</span>
+            <h3 class="card-title">Deepfake AI Detection System</h3>
+            <p class="card-description">
+              Developed a full-stack web app that detects AI-generated images and videos using a ResNet18 deep learning model.
+              Built a Node.js/Express backend serving a live PyTorch inference pipeline for real-time media analysis.
+              Designed an interactive frontend supporting batch media uploads and analytics tracking.
+            </p>
+            <div class="tech-stack" role="list" aria-label="Technologies used in Deepfake AI Detection System">
+              <span class="tech-tag" role="listitem">Python</span>
+              <span class="tech-tag" role="listitem">ResNet18</span>
+              <span class="tech-tag" role="listitem">PyTorch</span>
+              <span class="tech-tag" role="listitem">Node.js</span>
+            </div>
+            <a href="https://github.com/THARUN10-Coder" class="card-link" aria-label="View Deepfake AI Detection project on GitHub" target="_blank" rel="noopener noreferrer">
+              View on GitHub
+              <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+          </article>
+
+          <!-- Project 3: Apple Inc. DCF Financial Model -->
+          <article class="card reveal project-card" role="listitem" data-category="fintech">
+            <div class="card-image" role="img" aria-label="Apple Inc. DCF Financial Model — interactive valuation dashboard with sensitivity heatmap" style="background: linear-gradient(135deg, hsl(145, 50%, 20%), hsl(170, 60%, 25%));"></div>
+            <span class="card-tag">Finance Tech</span>
+            <h3 class="card-title">Apple Inc. DCF Financial Model</h3>
+            <p class="card-description">
+              Built a fully interactive Discounted Cash Flow model for Apple Inc. using real FY2024 annual report data.
+              Implemented live sliders for WACC, growth rate, and margin assumptions with a real-time sensitivity heatmap.
+              Designed an equity bridge waterfall chart — a recruiter-ready crossover of finance and engineering.
+            </p>
+            <div class="tech-stack" role="list" aria-label="Technologies used in Apple DCF Model">
+              <span class="tech-tag" role="listitem">React.js</span>
+              <span class="tech-tag" role="listitem">Finance</span>
+              <span class="tech-tag" role="listitem">FY2024 10-K Data</span>
+            </div>
+            <a href="https://github.com/THARUN10-Coder" class="card-link" aria-label="View Apple DCF Model project on GitHub" target="_blank" rel="noopener noreferrer">
+              View on GitHub
+              <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section-padding" aria-labelledby="projects-cta-heading">
+      <div class="container" style="text-align: center;">
+        <div class="card reveal" style="max-width: 640px; margin: 0 auto; text-align: center; padding: var(--space-3xl);">
+          <h2 id="projects-cta-heading" class="section-title" style="margin-bottom: var(--space-md);">More on GitHub</h2>
+          <p class="section-description" style="margin-bottom: var(--space-xl);">
+            Explore all my repositories, contributions, and experiments on GitHub.
+          </p>
+          <a href="https://github.com/THARUN10-Coder" class="btn btn--primary" id="cta-github" target="_blank" rel="noopener noreferrer">
+            Visit My GitHub
+            <svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24" style="width:18px; height:18px;"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ SITE FOOTER ============ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copyright">
+          &copy; <time datetime="2026">2026</time> Tharun Raj R G. All rights reserved.
+        </p>
+
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About</a>
+          <a href="projects.html" class="footer-link">Projects</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+        </nav>
+
+        <div class="social-links" role="list" aria-label="Social media links">
+          <a href="https://github.com/THARUN10-Coder" class="social-link" role="listitem" aria-label="GitHub profile — THARUN10-Coder" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/tharun-r-g" class="social-link" role="listitem" aria-label="LinkedIn profile — Tharun Raj R G" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="mailto:rgtharunraj10@gmail.com" class="social-link" role="listitem" aria-label="Email Tharun Raj R G" target="_blank" rel="noopener noreferrer">
+            <svg aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
